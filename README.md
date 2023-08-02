@@ -9,7 +9,7 @@ For single gene, we follow the following steps:
 
 ### Determine the age/sex bias of biological processes. 
 steps:
-- For every sample, check which GOBP (Gene Ontology Biological Process) is more enriched than others.
+- For every sample, check which GOBP (Gene Ontology Biological Process) is more enriched than others using a Fisher's test of GOStat.
 - Collect the anomalously enriched GOBP terms.
 - Keep those GOBP terms which are significantly observed in various samples.
 - Reject genesets of size less than 15 and more than 190 to get rid of general bio-logical processes and insignificant processes.
