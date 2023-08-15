@@ -7,7 +7,7 @@ For single gene, we follow the following steps:
     - Check the download.sh script
 - Process the .CEL files to convert raw expression values to $z$-score
     - check the get_z_score_parallel.r
-- Build an ML model which determines the sex bias in a given age group and  vice-versa.
+- Build an ML model which determines the sex bias in a given age group and  vice-versa. I used a simple Logistic Regression and used its accuracy score as a sex bias score
     - check the *model.ipynb* notebook
 - Show results of age/sex bias for every particular gene.
     - check the *results.ipynb* notebook
@@ -19,3 +19,4 @@ steps:
 - Perform permutation test on each GOBP.
 - Find the Sex bias and the age trend of the bias of the biological processes.
 - Check *results.ipynb*.
+- Some of my thoughts are jotted down at the end.
